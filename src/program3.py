@@ -24,18 +24,18 @@ class GreetingApp:
         
         # store image in the label obj to keep it in the scope as 
         # long as label is displayed and to avoid getting the image getting garbage collected
-        imgpath = 'simple_gif.gif'      # path of the image
-        self.label.img = tk.PhotoImage(file = imgpath)      # read_image :: saving image within label_object to prevent its garbage collection
-        self.label.config(image = self.label.img)           # display image in label widget
-        self.label.config(compound = 'left')                # to display image in left of text
+        imgpath = 'simple_gif.gif'                                      # path of the image
+        self.label.img = tk.PhotoImage(file = imgpath)                  # read_image :: saving image within label_object to prevent its garbage collection
+        self.label.config(image = self.label.img)                       # display image in label widget
+        self.label.config(compound = 'left')                            # to display image in left of text
         
-        self.label.pack()       # pack label to the window with pack() geometry method of Label
+        self.label.pack()                                               # pack label to the window with pack() geometry method of Label
         self.btn.pack()
         
-        self.label.config(wraplength = 200)         # specify wraplength of text in label
-        self.label.config(justify = tk.CENTER)      # justify text in label to (CENTER, RIGHT or LEFT)
+        self.label.config(wraplength = 200)                             # specify wraplength of text in label
+        self.label.config(justify = tk.CENTER)                          # justify text in label to (CENTER, RIGHT or LEFT)
         self.label.config(foreground = 'blue', background = 'yellow')   # insert font color (foreground) and background color
-        self.label.config(font = ('Times', 10, 'bold'))         # font = (font_name, font_size, font_type)
+        self.label.config(font = ('Times', 10, 'bold'))                 # font = (font_name, font_size, font_type)
         
     def handle_text(self):
         if self.label['text'] == self.greet_list[0]:
