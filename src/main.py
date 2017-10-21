@@ -11,6 +11,7 @@ import program2 as p2
 import program3 as p3
 import program4 as p4
 import program5 as p5
+import program6 as p6
 
 def main():
     p1.sayhello()
@@ -18,5 +19,6 @@ def main():
     p3.GreetingAppLaunch()
     p4.launchButtonApp()
     p5.launchButton2App()
+    p6.launchEntryApp()
 
 if __name__ == '__main__':main()
