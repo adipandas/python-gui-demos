@@ -12,7 +12,9 @@ This is the main file and will import other modules/codes written for python
 # import program4 as p4
 # import program5 as p5
 # import program6 as p6
-import program7 as p7
+#import program7 as p7
+import program8 as p8
+
 def main():
 #     p1.sayhello()
 #     p2.HelloAppLaunch()
@@ -20,6 +22,7 @@ def main():
 #     p4.launchButtonApp()
 #     p5.launchButton2App()
 #     p6.launchEntryApp()
-    p7.launchSimpleCalenderApp()
-
+#     p7.launchSimpleCalenderApp()
+    p8.ControlledPorgressApp()
+    
 if __name__ == '__main__':main()
