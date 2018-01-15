@@ -23,7 +23,7 @@ class simpleCalender:
         self.spinbxyear = tk.Spinbox(master, from_ = 1900, 
                                  to = datetime.datetime.now().year,
                                  textvariable = self.year)
-        self.spinbxyear.pack()       
+        self.spinbxyear.pack()
         
         #####################################################################
         
