@@ -16,6 +16,7 @@ import program7 as p7
 import program8 as p8
 import program9 as p9
 import program10 as p10
+import program11 as p11
 
 def main():
     p1.sayhello()
@@ -28,5 +29,6 @@ def main():
     p8.ControlledPorgressApp()
     p9.DisplayAppLaunch()
     p10.launchTopLevelApp()
+    p11.launchPanedWindowApp()
     
 if __name__ == '__main__':main()
