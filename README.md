@@ -11,7 +11,7 @@ For more details, refer the tkinter documentation https://wiki.python.org/moin/T
 Feel free to contact me, if you need any kind of input. I will be happy to discuss.
 I invite anyone interested to contribute.
 
-If you find this work useful please cite it as
+If you find this work useful please cite it as:
 ```
 @misc{pythonguidemos,
   author = {Deshpande, Aditya M.},
