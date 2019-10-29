@@ -10,3 +10,15 @@ For more details, refer the tkinter documentation https://wiki.python.org/moin/T
 
 Feel free to contact me, if you need any kind of input. I will be happy to discuss.
 I invite anyone interested to contribute.
+
+If you find this work useful please cite it as
+```
+@misc{baselines,
+  author = {Deshpande, Aditya M.},
+  title = {python-gui-demos},
+  year = {2017},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/adipandas/python-gui-demos}},
+}
+```
