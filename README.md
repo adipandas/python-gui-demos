@@ -13,7 +13,7 @@ I invite anyone interested to contribute.
 
 If you find this work useful please cite it as
 ```
-@misc{baselines,
+@misc{pythonguidemos,
   author = {Deshpande, Aditya M.},
   title = {python-gui-demos},
   year = {2017},
