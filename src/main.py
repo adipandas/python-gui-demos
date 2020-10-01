@@ -20,7 +20,7 @@ import program11 as p11
 import program12 as p12
 import program13 as p13
 
-def main():
+def start_all_programmes():
     p1.sayhello()
     p2.HelloAppLaunch()
     p3.GreetingAppLaunch()
@@ -35,5 +35,6 @@ def main():
     p12.launchNoteBookApp()
     p13.launchApp()
     
-if __name__ == '__main__':main()
+if __name__ == '__main__':
+    start_all_programmes()
 
